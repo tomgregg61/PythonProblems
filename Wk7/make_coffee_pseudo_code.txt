@@ -1,0 +1,20 @@
+get mug
+get coffee beans
+get kettle
+get milk
+get spoon
+
+put water in kettle
+put kettle on to boil
+put coffee beans in mug
+
+while coffee not served
+	if kettle has boiled
+		pour water into mug
+		stir contents of mug with spoon
+		pour milk
+		stir with spoon
+
+		remove spoon
+
+		serve

@@ -1,0 +1,17 @@
+write "Enter first number"
+read num1
+write "Enter second number"
+read num2
+write "Enter an operator (+,-,/, or *)"
+read operator
+
+if operator == "+" then
+	write(num1 + num2)
+else if operator == "-" then
+	write(num1 - num2)
+else if operator == "/" then
+	write(num1 / num2)
+else if operator = "*" then
+	write (num1 * num2)
+else
+	write "Invalid operator"

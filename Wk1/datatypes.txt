@@ -1,0 +1,7 @@
+a. A company’s profit = float number may contain decimals
+b. A person’s weight = float number may contain decimals
+c. A book title = string will be text
+d. Average rainfall in September = float average could be a decimal
+e. Number of runs scored by a cricketer = integer score will always be a hole number
+f. A telephone number, including area code = string area code could have non numbers in it like brackets or a +
+g. A dress size = integer size will most likely be a whole number with no decimals

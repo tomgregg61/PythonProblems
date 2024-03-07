@@ -1,0 +1,21 @@
+print("Peaches")
+peachesAmount = int(input("amount?"))
+peachesPrice = float(input("price?"))
+print("Beans")
+beansAmount = int(input("amount?"))
+beansPrice = float(input("price?"))
+print("Chicken pieces")
+chickenAmount = int(input("amount?"))
+chickenPrice = float(input("price?"))
+print("Socks")
+socksAmount = int(input("amount?"))
+socksPrice = float(input("price?"))
+print("Bottle of water")
+waterAmount = int(input("amount?"))
+waterPrice = float(input("price?"))
+
+itemCount = peachesAmount + beansAmount + chickenAmount + socksAmount + waterAmount
+priceCount = (peachesAmount * peachesPrice) + (beansAmount * beansPrice) + (chickenAmount * chickenPrice) + (socksAmount * socksPrice) + (waterAmount * waterPrice)
+
+print("Total number of items purchased:", itemCount)
+print("Total cost of items purchased:", priceCount)

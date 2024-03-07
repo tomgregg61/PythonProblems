@@ -1,0 +1,10 @@
+write "Select 1. Lasagne or 2. Stir fry"
+read main
+if main == "Lasagne" then
+	write "Select side betweeen 1. Garlic bread or 2. Fries"
+	read side
+else if main == "Lasagne" then
+	write "Select side betweeen 1. Noodles or 2. Crispy seaweed"
+	read side
+write main
+write side

@@ -1,0 +1,13 @@
+write "Please enter a number between one and four"
+read choice
+
+if input == 1 then
+	write "Thunderbird 1 pilot is Scott Tracy"
+else if input == 2 then
+	write "Thunderbird 2 pilot is Virgil Tracy"
+else if input == 3 then
+	write "Thunderbird 3 pilot is Alan Tracy"
+else if input == 4 then
+	write  "Thunderbird 4 pilot is Gordon Tracy"
+else
+	write "Have you neverwatched Thunderbirds!"

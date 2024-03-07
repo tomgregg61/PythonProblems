@@ -1,0 +1,16 @@
+rent = float(input("Please enter rent: "))
+gas = float(input("Please enter gas: "))
+electricity = float(input("Please enter electricity: "))
+water = float(input("Please enter water: "))
+councilTax = float(input("Please enter councilTax: "))
+
+total = (rent + gas + electricity + water + councilTax)
+roundedTotal = round(total, 2)
+
+print("{:<16}{:>3}{:>6}".format("Rent","£", rent))
+print("{:<16}{:>3}{:>6}".format("Gas","£", gas))
+print("{:<16}{:>3}{:>6}".format("Electricity","£", electricity))
+print("{:<16}{:>3}{:>6}".format("Water","£", water))
+print("{:<16}{:>3}{:>6}".format("Council Tax","£", councilTax))
+print("=".center(36, "="))
+print("{:<16}{:>3}{:>6}".format("Total","£", roundedTotal))
